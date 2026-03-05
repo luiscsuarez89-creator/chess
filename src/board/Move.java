@@ -1,3 +1,7 @@
+package board;
+
+import pieces.*;
+
 import java.util.Locale;
 
 public final class Move {

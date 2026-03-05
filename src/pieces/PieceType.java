@@ -1,3 +1,5 @@
+package pieces;
+
 public enum PieceType {
     KING('K'),
     QUEEN('Q'),

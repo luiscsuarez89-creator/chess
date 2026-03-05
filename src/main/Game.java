@@ -1,3 +1,8 @@
+package main;
+
+import board.*;
+import pieces.*;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -19,6 +24,7 @@ public final class Game {
     public void run() {
         setupInitialPosition();
 
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ajedrez Java - Introduce movimientos como e2e4, g1f3, e7e8q.");
         System.out.println("Escribe 'salir' para terminar.");

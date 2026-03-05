@@ -1,3 +1,8 @@
+package pieces;
+
+import board.*;
+import main.*;
+
 import java.util.List;
 
 public abstract class Piece {

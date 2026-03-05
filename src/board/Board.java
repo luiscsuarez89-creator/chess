@@ -1,3 +1,7 @@
+package board;
+
+import pieces.*;
+
 public final class Board {
     private final Piece[][] squares = new Piece[8][8];
 
