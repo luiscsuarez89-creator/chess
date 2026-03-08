@@ -16,13 +16,25 @@ Implementación de un juego de ajedrez por consola en Java, con generación y va
 ## Compilar
 
 ```bash
-javac src/ChessGame.java
+mvn compile
+```
+
+O manualmente:
+
+```bash
+javac -d target/classes -sourcepath src/main/java src/main/java/com/mycompany/main/ChessGame.java
 ```
 
 ## Ejecutar
 
 ```bash
-java -cp src ChessGame
+mvn exec:java
+```
+
+O manualmente:
+
+```bash
+java -cp target/classes com.mycompany.main.ChessGame
 ```
 
 ## Formato de jugadas
